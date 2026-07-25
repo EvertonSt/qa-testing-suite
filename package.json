@@ -1,0 +1,29 @@
+{
+  "name": "qa-testing-suite",
+  "version": "1.0.0",
+  "description": "Automated Testing Suite - API & UI Testing with Reporting",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "mocha tests/api/",
+    "test:ui": "cypress run",
+    "test:all": "npm run test:api && npm run test:ui",
+    "report": "node scripts/generate-report.js"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "automation",
+    "cypress",
+    "api-testing",
+    "ui-testing"
+  ],
+  "author": "Everton St",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "axios": "^1.6.0",
+    "chai": "^4.3.0",
+    "mocha": "^10.2.0"
+  }
+}
