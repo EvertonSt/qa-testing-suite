@@ -1,5 +1,9 @@
 # QA Testing Suite
 
+![CI](https://github.com/EvertonSt/qa-testing-suite/actions/workflows/test.yml/badge.svg)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue)
+
 A comprehensive automated testing suite demonstrating API testing, UI testing, and reporting capabilities.
 
 ## Features
